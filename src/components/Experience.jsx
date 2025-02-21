@@ -28,9 +28,11 @@ const Experience = () => {
                             className="w-full max-w-xl lg:w-3/4">
                             <h6 className='mb-2 font-semibold'>{ex.role} -{" "}<span className='text-sm text-purple-100'>{ex.company}</span></h6>
                             <p className='mb-4 text-neutal-400'>{ex.description}</p>
-                            {ex.technologies.map((tech,i)=>(
-                                <span key={i} className='mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-500'>{tech}</span>
-                            ))}
+                            <div className='flex flex-wrap gap-2 mt-2'>
+                                {ex.technologies.map((tech,i)=>(
+                                    <span key={i} className='mt -4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-500'>{tech}</span>   
+                                ))}
+                            </div>
                         </motion.div>
                     </div>
                 ))
