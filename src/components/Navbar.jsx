@@ -13,7 +13,7 @@ const Navbar = () => {
         </div>
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
             <a href='https://www.linkedin.com/in/niraj-rawat/' target='_'><FaLinkedin/></a>
-            <a href='https://github.com/rniraj-web'><FaGithub/></a>
+            <a href='https://github.com/rniraj-web' target='_'><FaGithub/></a>
             <HashLink to='#contact'><FaPhone/></HashLink>
         </div>
         

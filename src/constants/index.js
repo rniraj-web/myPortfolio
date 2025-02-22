@@ -9,7 +9,7 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
+    year: "2023 - 2024",
     role: "Red Hat Academy Student Ambassador",
     company: "Cardiff University",
     description: `Promoted open-source learning and got more students to use Red Hat's free seminars and cloud labs. Worked with instructors and Red Hat team members to make sure that students had simple access to learning resources. Public speaking and presentation skills were important for running lessons and convincing students to engage.`,
