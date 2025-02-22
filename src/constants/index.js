@@ -1,8 +1,8 @@
 import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
+import project2 from "../assets/projects/portfolio.png";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
-import redevelop from "../assets/projects/redevelop_home.png"
+import redevelop from "../assets/projects/redevelop_home1.png"
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like React, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -31,29 +31,15 @@ export const PROJECTS = [
     image: redevelop,
     description:
       "ReDevelop was built using the MERN stack (MongoDB, Express.js, React, Node.js) with an integrated payment method and login system. It allows users to buy and sell recycled constructing materials that would otherwise go to waste during reconstruction or demolition. The platform includes user login for secure access, product sorting, filtering by price and category, secure transfers, and a seller dashboard for inventory management. The goal of making this app was to support sustainability by lowering construction waste and offering an efficient marketplace for recycled materials.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    technologies: ["Javascript", "Node.js", "React.js", "Redux", "MongoDB", "HTML", "CSS", "Figma", "Render"],
   },
   {
     title: "Portfolio Website",
-    image: project3,
+    image: project2,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+      "Developed my portfolio website using React.js with Vite for optimised performance and a seamless development experience. Tailwind CSS for styling, ensuring a modern, responsive design. To enhance user experience, I implemented Framer Motion for smooth animations and transitions, and it is deployed using Render.",
+    technologies: ["HTML", "Javascript", "Motion", "Tailwind CSS", "Vite"],
+  }
 ];
 
 export const CONTACT = {
