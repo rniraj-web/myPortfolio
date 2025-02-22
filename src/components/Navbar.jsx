@@ -16,7 +16,6 @@ const Navbar = () => {
             <a href='https://github.com/rniraj-web' target='_'><FaGithub/></a>
             <HashLink to='#contact'><FaPhone/></HashLink>
         </div>
-        
     </nav>
   )
 }
