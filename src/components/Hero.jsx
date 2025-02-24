@@ -56,19 +56,19 @@ const Hero = () => {
                         initial= "hidden"
                         animate = "visible"
                         className="m-8 flex items-center justify-center gap-4 text-2xl">
-                                <a className="relative group text-white" href='https://www.linkedin.com/in/niraj-rawat/' target='_'><FaLinkedin/>
+                                <a className="relative group text-white" href='https://www.linkedin.com/in/niraj-rawat/' target='_blank' rel="noopener noreferrer"><FaLinkedin/>
                                     <span className="absolute left-1/2 -translate-x-1/2 bottom-[-30px] px-2 py-1 text-xs bg-purple-500 text-white rounded opacity-0 group-hover:opacity-70 transition">
                                         LinkedIn
                                     </span>
                                 </a>
                     
-                                <a className="relative group text-white" href='https://github.com/rniraj-web' target='_'><FaGithub/>
+                                <a className="relative group text-white" href='https://github.com/rniraj-web' target='_blank' rel="noopener noreferrer"><FaGithub/>
                                     <span className="absolute left-1/2 -translate-x-1/2 bottom-[-30px] px-2 py-1 text-xs bg-purple-500 text-white rounded opacity-0 group-hover:opacity-70 transition">
                                         Github
                                     </span>
                                 </a>
                                 
-                                <a href='/Niraj_Rawat.pdf' download className="relative group text-white">
+                                <a href='/Niraj_Rawat.pdf' target='_blank' rel="noopener noreferrer" download className="relative group text-white">
                                     <FaFileAlt className="text-2xl" />
                                     <span className="absolute left-1/2 -translate-x-1/2 bottom-[-30px] px-2 py-1 text-xs bg-purple-500 text-white rounded opacity-0 group-hover:opacity-70 transition">
                                         Resume
