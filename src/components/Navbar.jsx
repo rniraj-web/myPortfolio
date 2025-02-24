@@ -14,7 +14,7 @@ const Navbar = () => {
             <a href='#'><img className='mix-blend-lighten mx-2 w-7' src={logo} alt="myLogo" /></a>
         </div>
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-          <HashLink className='relative group text-xl text-zinc-500 hover:text-purple-500 transition' to='#projects'><FaTools/>
+          <HashLink className='relative group text-xl text-zinc-500 hover:text-purple-500 transition' to='#tech'><FaTools/>
             <span className="absolute left-1/2 -translate-x-1/2 bottom-[-30px] px-2 py-1 text-xs bg-purple-500 text-white rounded opacity-0 group-hover:opacity-70 transition">Tech</span>
           </HashLink>
           
