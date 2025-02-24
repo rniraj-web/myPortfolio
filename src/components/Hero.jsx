@@ -68,11 +68,7 @@ const Hero = () => {
                                     </span>
                                 </a>
                                 
-                                <a 
-                                    href='/resume.pdf' 
-                                    download 
-                                    className="relative group text-white"
-                                >
+                                <a href='/Niraj_Rawat.pdf' download className="relative group text-white">
                                     <FaFileAlt className="text-2xl" />
                                     <span className="absolute left-1/2 -translate-x-1/2 bottom-[-30px] px-2 py-1 text-xs bg-purple-500 text-white rounded opacity-0 group-hover:opacity-70 transition">
                                         Resume
