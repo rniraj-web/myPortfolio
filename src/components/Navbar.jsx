@@ -8,13 +8,22 @@ import { HashLink } from 'react-router-hash-link'
 
 const Navbar = () => {
   return (
-    <nav className='mb-20 flex items-center justify-between py-6'>
+    <nav className='mb-20 lg:mb-15 flex items-center justify-between py-6 lg:py-4'>
         <div className='flex flex-shrink-0 items-center'>
             <a href='#'><img className='mix-blend-lighten mx-2 w-7' src={logo} alt="myLogo" /></a>
         </div>
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-            <a href='https://www.linkedin.com/in/niraj-rawat/' target='_'><FaLinkedin/></a>
-            <a href='https://github.com/rniraj-web' target='_'><FaGithub/></a>
+            <a className="relative group text-white" href='https://www.linkedin.com/in/niraj-rawat/' target='_'><FaLinkedin/>
+                <span className="absolute left-1/2 -translate-x-1/2 bottom-[-30px] px-2 py-1 text-xs bg-purple-500 text-white rounded opacity-0 group-hover:opacity-70 transition">
+                    LinkedIn
+                </span>
+            </a>
+
+            <a className="relative group text-white" href='https://github.com/rniraj-web' target='_'><FaGithub/>
+                <span className="absolute left-1/2 -translate-x-1/2 bottom-[-30px] px-2 py-1 text-xs bg-purple-500 text-white rounded opacity-0 group-hover:opacity-70 transition">
+                    Github
+                </span>
+            </a>
             <HashLink to='#contact'><FaPhone/></HashLink>
             <a 
                 href='/resume.pdf' 

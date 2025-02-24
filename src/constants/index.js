@@ -30,7 +30,7 @@ export const PROJECTS = [
     title: "🏗️ReDevelop - A Construction Marketplace",
     image: redevelop,
     description:
-      "ReDevelop was built using the MERN stack (MongoDB, Express.js, React, Node.js) with an integrated payment method and login system. It allows users to buy and sell recycled constructing materials that would otherwise go to waste during reconstruction or demolition. The platform includes user login for secure access, product sorting, filtering by price and category, secure transfers, and a seller dashboard for inventory management. The goal of making this app was to support sustainability by lowering construction waste and offering an efficient marketplace for recycled materials.",
+      "ReDevelop is built using the MERN stack (MongoDB, Express.js, React, Node.js) with an integrated payment method and login system. It allows users to buy and sell recycled constructing materials that would otherwise go to waste during reconstruction or demolition. The platform includes user login for secure access, product sorting, filtering by price and category, secure transfers, and a seller dashboard for inventory management. The goal of making this app was to support sustainability by lowering construction waste and offering an efficient marketplace for recycled materials.",
     technologies: ["Javascript", "Node.js", "React.js", "Redux", "MongoDB", "HTML", "CSS", "Figma", "Render"],
   },
   {
@@ -38,7 +38,7 @@ export const PROJECTS = [
     image: project2,
     description:
       "Developed my portfolio website using React.js with Vite for optimised performance and a seamless development experience. Tailwind CSS for styling, ensuring a modern, responsive design. To enhance user experience, I implemented Framer Motion for smooth animations and transitions, and it is deployed using Render.",
-    technologies: ["HTML", "Javascript", "Motion", "Tailwind CSS", "Vite"],
+    technologies: ["HTML", "Javascript", "React", "Motion", "Tailwind CSS", "Vite"],
   }
 ];
 
