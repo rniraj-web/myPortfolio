@@ -6,22 +6,33 @@ import redevelop from "../assets/projects/redevelop_home1.png"
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like React, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated software engineer who loves designing effective and user-friendly web applications. I have experience as an Analyst (Software Developer) at Merkle, where I focused on frontend development. I also obtained hands-on knowledge with JavaScript, React, Node.js, MongoDB, and MySQL while working on several projects. Motivated to constant learning, as I am now learning Next.js to better my full-stack development skills. I thrive in collaborative workplaces and enjoy solving complex problems. In addition to my programming skills, I have represented India at both the World Pencak Silat Championship and the Asian Championship.`;
+export const ABOUT_TEXT = `I am a software developer that likes developing ideas into things that people want to use. Most days, I create clean, accessible UIs with React and TypeScript, but I am also willing to work with Node.js, Express, and REST APIs when the job requires it. I am really interested in performance and media delivery as being fast feels good and I thrive in Agile teams in which I ship, learn, and iterate. A few tools that I use on a daily basis include Git Docker and Jira. My current focus is on enhancing my full-stack abilities through Next.js development.
+
+Clear states, considerate accessibility, and the little things that make an experience seem "right." At Happy AI (AI Aware), my focus is on simplifying AI-powered workflows into trustworthy interfaces. I believe in verifying assumptions early and maintaining a tight feedback loop.
+
+Outside of coding, I am a national-level athlete and have represented India at the World and Asian Pencak Silat Championships.  This journey taught me discipline, self-control under pressure, and how to be present for a team qualities I bring to each project. I enjoy collaborative problem-solving and gaining new skills with each sprint.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - 2024",
-    role: "Red Hat Academy Student Ambassador",
-    company: "Cardiff University",
-    description: `Promoted open-source learning and got more students to use Red Hat's free seminars and cloud labs. Worked with instructors and Red Hat team members to make sure that students had simple access to learning resources. Public speaking and presentation skills were important for running lessons and convincing students to engage.`,
-    technologies: ["Communication & Networking", "Leadership & Initiative", "Public Speaking & Presentation Skills", "Team Work"],
+    year: "July 2025 - Present",
+    role: "Frontend Developer",
+    company: "Happy AI Ltd (trading as AI Aware)",
+    description: `I work on the frontend of an AI-generated content detection platform, building fast and accessible interfaces in Next.js, React and TypeScript. I’ve introduced a modular design system and route-based code-splitting so pages feel snappy even with heavy document analysis. I designed the end-to-end document review experience – from upload, async processing and polling, through to interactive result views with confidence highlights, summaries and PDF export – to make complex AI output easy to understand. I’m also responsible for secure, frictionless access, using JWT-based authentication, role-based routing and safe token handling. To keep releases stable, I cover core components with Jest/React Testing Library and ship through a Docker-based setup that keeps builds repeatable and downtime minimal.`,
+    technologies: ["Next.js", "React", "TypeScript", "REST APIs", "JWT Auth", "Jest", "React Testing Library", "Docker", "Git", "CI/CD"],
   },
   {
     year: "2021 - 2023",
-    role: "Analyst",
+    role: "Software Developer",
     company: "Merkle Inc.",
-    description: `Programmed questionnaire to responsive web-survey using market research tools. Developed client-specific custom requirements and functionality, such as the drag-and-drop of products and selecting the least and most important options. Based on that, survey questions were presented to the user. Performed data checks using SQL queries on survey data stored in IBM SPSS Database. Customised and updated survey templates using Javascript and CSS for Confirmit Forsta.`,
-    technologies: ["HTML", "CSS", "Javascript", "MySQL", "Python"],
+    description: `At Merkle I built multilingual, responsive web surveys and reusable templates for major market-research clients. Using React and vanilla JavaScript, I implemented complex survey flows (including MaxDiff) so the same components could be reused across dozens of studies instead of starting from scratch each time. Alongside development, I owned a big part of data quality, running SQL checks and validations on large datasets in IBM SPSS to make sure reported results matched survey logic and quotas. I regularly collaborated with QA and data-processing teams to roll out template updates and fixes safely into production, monitoring live traffic and resolving issues quickly to protect client trust.`,
+    technologies: ["React", "Javascript", "MySQL", "Confirmit", "HTML", "CSS"],
+  },
+  {
+    year: "2020 - 2021",
+    role: "Junior Backend Developer",
+    company: "Salt Tech Software Services ",
+    description: `I started my career working on the backend for a real-time video communication platform. I built and maintained Node.js/Express APIs for creating sessions, managing rooms and handling users, giving the React frontend a clean contract to work with. I implemented authentication and authorisation using OAuth and JWT tokens, ensuring only permitted users could start or join calls. On top of the core REST API I added real-time messaging with Socket.IO, handling joins, broadcasts and live updates so calls felt responsive without page reloads. I relied heavily on Postman and systematic debugging to test edge cases and keep the API stable for the frontend team.`,
+    technologies: ["Node.js", "Express.js", "REST APIs", "Socket.IO", "OAuth", "JWT", "Postman", "Git"],
   },
 ];
 
@@ -43,7 +54,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "142 Colum Road Cardiff",
+  // address: "142 Colum Road Cardiff",
   phoneNo: "+44 7767929624 ",
-  email: "rawatniraj0205@gmail.com",
+  email: "rwtniraj@gmail.com",
 };

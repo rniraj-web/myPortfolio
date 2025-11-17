@@ -1,6 +1,6 @@
 import React from 'react'
 import {HERO_CONTENT} from '../constants/index.js'
-import profilePic from '../assets/Nirajprofilepic.jpg'
+import profilePic from '../assets/IMG_9358.jpg'
 import { motion } from "motion/react"
 import { FaLinkedin } from 'react-icons/fa'
 import { FaGithub } from 'react-icons/fa6'
@@ -24,9 +24,9 @@ const Hero = () => {
                 {/* justify-end */}
                     <motion.img 
                     initial={{x: -100, opacity: 0}}
-                    animate={{x:0, opacity:0.65}}
+                    animate={{x:0, opacity:0.90}}
                     transition={{duration:1, delay: 0}}
-                    className='rounded-xl opacity-65' width='75%' src={profilePic} alt="Niraj Rawat" />
+                    className='rounded-xl opacity-65' width='75%' height= '50%' src={profilePic} alt="Niraj Rawat" />
                 </div>
             </div>
             <div className="w-full lg:w-1/2">

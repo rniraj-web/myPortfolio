@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutMe from '../assets/aboutme.jpg'
+import aboutMe from '../assets/Nirajprofilepic.jpg'
 import {ABOUT_TEXT} from '../constants/index.js'
 import { motion } from 'motion/react'
 
@@ -20,16 +20,24 @@ const About = () => {
                 transition={{duration:0.5}}
                 className="w-full lg:w-1/2 lg:p-8">
                 <div className="flex items-center justify-center">
-                    <img className='opacity-65 rounded-xl w-3/4 h-full' src={aboutMe} alt="" />
+                    {/* <img className='opacity-65 rounded-xl w-3/4 h-full' src={aboutMe} alt="" /> */}
+                    <motion.img 
+                        initial={{x: -100, opacity: 0}}
+                        animate={{x:0, opacity:1}}
+                        transition={{duration:1, delay: 0}}
+                        className='rounded-xl opacity-65' width='75%' height= '50%' src={aboutMe} alt='aboutme'/>
                 </div>
             </motion.div>
             <motion.div
-                initial={{opacity:0, x:100}}
-                whileInView = {{opacity: 1, x:0}}
-                transition={{duration:0.5}}
-                className="w-full lg:w-1/2">
-                    <div className="flex justify-center lg:justify-start">
-                        <p className='my-2 max-w-xl py-6'>{ABOUT_TEXT}</p>
+                 animate={{ rotateX: 90 }}
+                 whileInView={{rotateX: 0}}
+                 transition={{
+                    type: "spring",
+                    visualDuration: 1,
+                    bounce: 0.4}}
+                className="w-full lg:w-1/2 flex justify-center items-center">
+                    <div className="flex justify-center items-center lg:justify-start">
+                        <p className='my-2 max-w-xl py-6' style={{opacity: '0.7'}}>{ABOUT_TEXT}</p>
                     </div>
             </motion.div>
         </div>

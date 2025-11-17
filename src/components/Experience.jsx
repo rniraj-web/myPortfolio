@@ -13,7 +13,11 @@ const Experience = () => {
         <div>
             {
                 EXPERIENCES.map((ex, i)=>(
-                    <div key={i} className='mb-8 flex flex-wrap lg:justify-center'>
+                    <motion.div 
+                        initial={{scale: 1}}
+                        whileHover={{scale:0.9, transition: {duration: 0.6}}}
+                        transition={{duration: 0.5}}
+                        key={i} className='mb-8 flex flex-wrap lg:justify-center'>
                         <motion.div 
                             initial={{opacity:0, x:-100}}
                             whileInView={{opacity:1, x:0}}
@@ -34,7 +38,8 @@ const Experience = () => {
                                 ))}
                             </div>
                         </motion.div>
-                    </div>
+                        
+                    </motion.div>
                 ))
             }
         </div>
