@@ -12,7 +12,7 @@ const Projects = () => {
             className='my-20 text-center text-4xl text-zinc-500'>Projects</motion.h2>
         <div>
             {
-                PROJECTS.map((proj, i)=>(
+                PROJECTS.map((proj, i)=>( 
                     <div key={i} className='mb-8 flex flex-wrap lg:justify-center'>
                         <motion.div 
                             initial={{opacity:0, x:-100}}

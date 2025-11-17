@@ -101,7 +101,7 @@ const Technologies = () => {
                 className="rounded-2xl border-0 border-neutral-800 p-4">
                 <SiDocker className='text-7xl text-blue-600'/>
             </motion.div>
-            {/* <motion.div 
+            {/* <motion.div
                 variants={iconVariants(6)} 
                 initial = "initial" 
                 animate = "animate"

@@ -14,7 +14,7 @@ Outside of coding, I am a national-level athlete and have represented India at t
 
 export const EXPERIENCES = [
   {
-    year: "July 2025 - Present",
+    year: "July 2025 - Present", 
     role: "Frontend Developer",
     company: "Happy AI Ltd (trading as AI Aware)",
     description: `I work on the frontend of an AI-generated content detection platform, building fast and accessible interfaces in Next.js, React and TypeScript. I’ve introduced a modular design system and route-based code-splitting so pages feel snappy even with heavy document analysis. I designed the end-to-end document review experience – from upload, async processing and polling, through to interactive result views with confidence highlights, summaries and PDF export – to make complex AI output easy to understand. I’m also responsible for secure, frictionless access, using JWT-based authentication, role-based routing and safe token handling. To keep releases stable, I cover core components with Jest/React Testing Library and ship through a Docker-based setup that keeps builds repeatable and downtime minimal.`,

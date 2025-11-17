@@ -12,7 +12,7 @@ const Experience = () => {
             className='my-20 text-center text-4xl text-zinc-500'>Experience</motion.h2>
         <div>
             {
-                EXPERIENCES.map((ex, i)=>(
+                EXPERIENCES.map((ex, i)=>( 
                     <motion.div 
                         initial={{scale: 1}}
                         whileHover={{scale:0.9, transition: {duration: 0.6}}}
