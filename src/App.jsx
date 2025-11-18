@@ -7,6 +7,7 @@ import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import { BrowserRouter } from 'react-router-dom'
+import Certifications from './components/Certifications'
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
             <Technologies/>
             <Experience/>
             <Projects/>
+            <Certifications/>
             <Contact/>
           </BrowserRouter>
         </div>  

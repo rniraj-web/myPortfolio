@@ -3,6 +3,12 @@ import project2 from "../assets/projects/portfolio.png";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import redevelop from "../assets/projects/redevelop_home1.png"
+import { CgWebsite } from "react-icons/cg";
+import { FaLinkedin } from "react-icons/fa";
+import { SiDocker } from "react-icons/si";
+import { DiScrum } from "react-icons/di";
+import { SiScrumalliance } from "react-icons/si";
+import { SiUdemy } from "react-icons/si";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like React, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -24,7 +30,8 @@ export const EXPERIENCES = [
     year: "2021 - 2023",
     role: "Software Developer",
     company: "Merkle Inc.",
-    description: `At Merkle I built multilingual, responsive web surveys and reusable templates for major market-research clients. Using React and vanilla JavaScript, I implemented complex survey flows (including MaxDiff) so the same components could be reused across dozens of studies instead of starting from scratch each time. Alongside development, I owned a big part of data quality, running SQL checks and validations on large datasets in IBM SPSS to make sure reported results matched survey logic and quotas. I regularly collaborated with QA and data-processing teams to roll out template updates and fixes safely into production, monitoring live traffic and resolving issues quickly to protect client trust.`,
+    description: `At Merkle I built multilingual, r
+    esponsive web surveys and reusable templates for major market-research clients. Using React and vanilla JavaScript, I implemented complex survey flows (including MaxDiff) so the same components could be reused across dozens of studies instead of starting from scratch each time. Alongside development, I owned a big part of data quality, running SQL checks and validations on large datasets in IBM SPSS to make sure reported results matched survey logic and quotas. I regularly collaborated with QA and data-processing teams to roll out template updates and fixes safely into production, monitoring live traffic and resolving issues quickly to protect client trust.`,
     technologies: ["React", "Javascript", "MySQL", "Confirmit", "HTML", "CSS"],
   },
   {
@@ -43,15 +50,45 @@ export const PROJECTS = [
     description:
       "ReDevelop is built using the MERN stack (MongoDB, Express.js, React, Node.js) with an integrated payment method and login system. It allows users to buy and sell recycled constructing materials that would otherwise go to waste during reconstruction or demolition. The platform includes user login for secure access, product sorting, filtering by price and category, secure transfers, and a seller dashboard for inventory management. The goal of making this app was to support sustainability by lowering construction waste and offering an efficient marketplace for recycled materials.",
     technologies: ["Javascript", "Node.js", "React.js", "Redux", "MongoDB", "HTML", "CSS", "Figma", "Render"],
+    liveUrl: "https://reconstruct.onrender.com",
+    githubUrl: "https://github.com/rniraj-web/Reconstruct"
+  },
+  // {
+  //   title: "Portfolio Website",
+  //   image: project2,
+  //   description:
+  //     "Developed my portfolio website using React.js with Vite for optimised performance and a seamless development experience. Tailwind CSS for styling, ensuring a modern, responsive design. To enhance user experience, I implemented Framer Motion for smooth animations and transitions, and it is deployed using Render.",
+  //   technologies: ["HTML", "Javascript", "React", "Motion", "Tailwind CSS", "Vite"],
+  //   githubUrl: "https://github.com/rniraj-web/myPortfolio"
+  // }
+];
+
+export const CERTIFICATIONS = [
+  {
+    id: 1,
+    title: 'Docker Foundations Professional Certificate',
+    provider: 'LinkedIn Learning',
+    logo: FaLinkedin,     
+    hoverLogo: SiDocker,  
+    url: 'https://www.linkedin.com/learning/certificates/8eab66828ffd5dc0a92125ad0b2c85690dfe025120b91a0f72fb6a48e83cac24?trk=share_certificate',
   },
   {
-    title: "Portfolio Website",
-    image: project2,
-    description:
-      "Developed my portfolio website using React.js with Vite for optimised performance and a seamless development experience. Tailwind CSS for styling, ensuring a modern, responsive design. To enhance user experience, I implemented Framer Motion for smooth animations and transitions, and it is deployed using Render.",
-    technologies: ["HTML", "Javascript", "React", "Motion", "Tailwind CSS", "Vite"],
-  }
-];
+    id: 2,
+    title: 'The Complete Full-Stack Web Development Bootcamp',
+    provider: 'Udemy',
+    logo: SiUdemy,     
+    hoverLogo: CgWebsite,  
+    url: 'https://www.udemy.com/certificate/UC-4560d7a4-0a2d-4fd1-b84a-3c58c1052285/', 
+  },
+  {
+    id: 3,
+    title: 'Professional Scrum Master 1',
+    provider: 'Scrum.org',
+    logo: SiScrumalliance,     
+    hoverLogo: DiScrum,  
+    url: 'https://www.scrum.org/certificates/1216716', 
+  },
+]
 
 export const CONTACT = {
   // address: "142 Colum Road Cardiff",
