@@ -30,8 +30,7 @@ export const EXPERIENCES = [
     year: "2021 - 2023",
     role: "Software Developer",
     company: "Merkle Inc.",
-    description: `At Merkle I built multilingual, r
-    esponsive web surveys and reusable templates for major market-research clients. Using React and vanilla JavaScript, I implemented complex survey flows (including MaxDiff) so the same components could be reused across dozens of studies instead of starting from scratch each time. Alongside development, I owned a big part of data quality, running SQL checks and validations on large datasets in IBM SPSS to make sure reported results matched survey logic and quotas. I regularly collaborated with QA and data-processing teams to roll out template updates and fixes safely into production, monitoring live traffic and resolving issues quickly to protect client trust.`,
+    description: `At Merkle I built multilingual, responsive web surveys and reusable templates for major market-research clients. Using React and vanilla JavaScript, I implemented complex survey flows (including MaxDiff) so the same components could be reused across dozens of studies instead of starting from scratch each time. Alongside development, I owned a big part of data quality, running SQL checks and validations on large datasets in IBM SPSS to make sure reported results matched survey logic and quotas. I regularly collaborated with QA and data-processing teams to roll out template updates and fixes safely into production, monitoring live traffic and resolving issues quickly to protect client trust.`,
     technologies: ["React", "Javascript", "MySQL", "Confirmit", "HTML", "CSS"],
   },
   {
